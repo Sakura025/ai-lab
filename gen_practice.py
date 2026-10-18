@@ -1,0 +1,10 @@
+import numpy as np
+a = np.arange(10)
+print(a)
+b = np.zeros((2, 3))
+print(b)
+c = np.ones((2, 3))
+print(c)
+d = np.zeros((2, 1)) + np.ones((1, 3))
+print(d)
+print(d.shape)
